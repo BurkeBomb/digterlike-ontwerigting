@@ -1,26 +1,4 @@
-<!DOCTYPE html> <html lang="af"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <title>Digterlike Ontwrigting – Argief</title> <link rel="stylesheet" href="styles.css" /> <link rel="icon" href="favicon.ico" /> <meta name="description" content="Interaktiewe argief van Afrikaanse poësie wat vloek, tart en ontwrig."> </head> <body> <div id="app"> <header> <img src="logo.png" alt="Digterlike Ontwrigting Logo" width="160" /> <h1>Digterlike Ontwrigting</h1> <select v-model="filterStyl"> <option value="">Alle style</option> <option v-for="styl in stylopsies" :key="styl" :value="styl">{{ styl }}</option> </select> <a href="javascript:history.back()" class="back-btn">← Terug</a> </header>
-
-<section>
-  <div v-for="digter in gefilterdeDigters" :key="digter.naam" class="digter-kaart">
-    <h2>{{ digter.ikoon }} {{ digter.naam }}</h2>
-    <p><strong>Temas:</strong> {{ digter.temas.join(', ') }}</p>
-    <p><strong>Styl:</strong> {{ digter.styl.join(', ') }}</p>
-    <p><strong>Beeldspraak:</strong> {{ digter.beeldspraak.join('; ') }}</p>
-    <blockquote>{{ digter.voorbeeld }}</blockquote>
-    <p>
-      <a :href="digter.skakels.bundel" target="_blank">Lees bundel</a> ·
-      <a :href="digter.skakels.profiel" target="_blank">Biografie</a>
-    </p>
-  </div>
-</section>
-
-<footer>
-  <p>© 2025 BurkeBomb · Ontwerp deur Xander & Copilot</p>
-</footer>
-
-</div>
-
-<script src="https://unpkg.com/vue@3"></script> <script> const { createApp } = Vue;
+const { createApp } = Vue;
 
 createApp({
   data() {
@@ -44,6 +22,11 @@ createApp({
     gefilterdeDigters() {
       if (!this.filterStyl) return this.digters;
       return this.digters.filter(d => d.styl.includes(this.filterStyl));
+    }
+  },
+  methods: {
+    goBack() {
+      history.back();
     }
   }
 }).mount('#app');
