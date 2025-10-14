@@ -1,61 +1,100 @@
+styles.css
+
 :root {
-  --rooi: #B00020;
-  --swart: #1C1C1C;
-  --pers: #4B2E83;
-  --oranje: #D35400;
-  --wit: #F2F2F2;
-  --groen: #556B2F;
-  --liggrys: #eaeaea;
-  --serif: 'Merriweather', serif;
-  --sans: 'Raleway', sans-serif;
+  --pink: #FF007F;
+  --dark: #1C1C1C;
+  --copper: #B87333;
+  --light: #F2F2F2;
   --mono: 'Courier Prime', monospace;
+  --sans: 'Raleway', sans-serif;
 }
 
 body {
-  font-family: var(--serif);
-  background-color: var(--wit);
-  color: var(--swart);
   margin: 0;
-  padding: 0;
+  font-family: var(--sans);
+  background: linear-gradient(to bottom right, #1C1C1C, #2C2C2C);
+  color: var(--light);
+  scroll-behavior: smooth;
 }
 
 header {
-  background-color: var(--swart);
-  color: var(--wit);
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2rem;
+  background-color: var(--dark);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 h1 {
-  font-family: var(--sans);
   font-size: 2.5rem;
+  color: var(--pink);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+select {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  margin-top: 1rem;
+  background-color: var(--copper);
+  color: white;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
 }
 
 .digter-kaart {
-  background-color: var(--liggrys);
-  border-left: 5px solid var(--rooi);
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--pink);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.digter-kaart:hover {
+  transform: scale(1.02);
+}
+
+.digter-kaart h2 {
+  font-size: 1.4rem;
+  color: var(--pink);
 }
 
 blockquote {
   font-family: var(--mono);
-  color: var(--rooi);
-  font-size: 1.1rem;
+  font-size: 1rem;
+  color: var(--copper);
+  margin-top: 1rem;
 }
 
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  .digter-kaart {
-    font-size: 1rem;
-    padding: 1rem;
-  }
-
-  blockquote {
-    font-size: 1rem;
-  }
+.btn, .back-btn {
+  background-color: var(--pink);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin: 0.5rem;
 }
+
+.btn:hover, .back-btn:hover {
+  background-color: var(--copper);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--dark);
+  color: var(--light);
+  font-size: 0.9rem;
+}
+
+
