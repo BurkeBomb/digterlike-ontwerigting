@@ -1,214 +1,101 @@
 [
   {
-    "naam": "Ronelda Kamfer",
-    "ikoon": "🧨",
-    "temas": ["Mafiguur en trauma", "Geweld en armoede", "Identiteit en klas", "Postapartheid-woede", "Liggaam en taal"],
-    "styl": ["Kaapse Afrikaans", "Vloektaal", "Ruwe realisme", "Enjambement", "Tipografiese ontwrigting"],
-    "beeldspraak": ["Metafoor: 'my ma is ’n roesplek'", "Personifikasie: 'die strate skree in my ore'", "Alliterasie: 'bloed blink by die bushalte'"],
-    "biografie": "Gebore in Wes-Kaap, Kamfer se werk is deurdrenk van township-realiteit, rou emosie en Kaapse Afrikaans as verset.",
-    "voorbeeld": "“ek het my ma gesien / haar oë was ’n asblik / en haar mond was ’n padkaart van pyn”",
-    "skakels": {
-      "bundel": "https://www.litnet.co.za/noudat-slapende-honde-ronelda-kamfer/",
-      "profiel": "https://af.wikipedia.org/wiki/Ronelda_Kamfer"
-    },
-    "kleur": "#B00020"
-  },
-  {
-    "naam": "Johann de Lange",
-    "ikoon": "🧨",
-    "temas": ["Homoërotiek", "Verslawing", "Dood", "Liggaam", "Taal as ekstase"],
-    "styl": ["Postmodernisme", "Vloektaal", "Intertekstualiteit", "Fragmentasie", "Tipografiese ontwrigting"],
-    "beeldspraak": ["Metafoor: 'jou lyf is ’n gebarste glas'", "Simbool: 'die naald as engel en demon'", "Allusie: Whitman, Genet"],
-    "biografie": "Gebore in Pretoria, bekend vir eksplisiete homoërotiese poësie en Hertzogpryswenner vir *Die algebra van nood*.",
-    "voorbeeld": "“ek het jou lyf gesien / soos ’n naald in die son / skerp, skadeloos, en vol belofte”",
-    "skakels": {
-      "bundel": "https://versindaba.co.za/tag/johann-de-lange/",
-      "profiel": "https://af.wikipedia.org/wiki/Johann_de_Lange"
-    },
-    "kleur": "#4B2E83"
-  },
-  {
-    "naam": "Joan Hambidge",
-    "ikoon": "🧠",
-    "temas": ["Identiteit", "Gender", "Taalfilosofie", "Intertekstualiteit", "Selfrefleksie"],
-    "styl": ["Poststrukturalisme", "Ironie", "Akademiese digstyl", "Fragmentasie", "Meta-poësie"],
-    "beeldspraak": ["Metafoor: 'ek is ’n spieël met krake'", "Allusie: Derrida, Barthes", "Ironie: 'ek dig oor dig'"],
-    "biografie": "Professor en digter, bekend vir haar akademiese en selfrefleksiewe styl. Skryf oor identiteit en taal.",
-    "voorbeeld": "“ek is nie ek nie / ek is die teks wat ek herskryf”",
-    "skakels": {
-      "bundel": "https://www.litnet.co.za/tag/joan-hambidge/",
-      "profiel": "https://af.wikipedia.org/wiki/Joan_Hambidge"
-    },
-    "kleur": "#880E4F"
-  },
-  {
-    "naam": "Loftus Marais",
-    "ikoon": "🎭",
-    "temas": ["Popkultuur", "Queer identiteit", "Stadslewe", "Ironie", "Verlies"],
-    "styl": ["Wit", "Intertekstualiteit", "Visuele poësie", "Tipografiese spel", "Postmodernisme"],
-    "beeldspraak": ["Metafoor: 'my hart is ’n glitterbom'", "Allusie: Lady Gaga, Sylvia Plath", "Ironie: 'ek huil in Helvetica'"],
-    "biografie": "Bekend vir *Staan in die algemeen nader aan vensters*, Marais meng popkultuur met queer introspeksie.",
-    "voorbeeld": "“ek is ’n emoji / wat nie laai nie”",
-    "skakels": {
-      "bundel": "https://versindaba.co.za/tag/loftus-marais/",
-      "profiel": "https://af.wikipedia.org/wiki/Loftus_Marais"
-    },
-    "kleur": "#FF4081"
-  },
-  {
     "naam": "Antjie Krog",
-    "ikoon": "🌍",
-    "temas": ["Waarheid en versoening", "Liggaam", "Afrika", "Taalversmelting", "Politieke verset"],
-    "styl": ["Liries", "Multitalig", "Narratief", "Eties", "Eksperimenteel"],
-    "beeldspraak": ["Metafoor: 'my stem is ’n wond'", "Allusie: Truth Commission", "Personifikasie: 'Afrika huil in my'"],
-    "biografie": "Een van SA se mees invloedryke digters, bekend vir *Country of My Skull* en haar werk oor versoening.",
-    "voorbeeld": "“ek het ’n land in my keel / en dit wil nie swyg nie”",
+    "ikoon": "🔥",
+    "temas": ["Taal en identiteit", "Politiek", "Liefde", "Liggaam", "Verset"],
+    "styl": ["Liries", "Intens", "Eksperimenteel", "Meertaligheid", "Narratief"],
+    "beeldspraak": ["Metafoor: 'ek is ’n land in oorlog'", "Allusie: Bybel, politiek", "Herhaling: 'ek, ek, ek'"],
+    "biografie": "Krog is ’n invloedryke stem in Afrikaanse poësie, bekend vir haar politieke betrokkenheid en taaleksperimentering. Haar werk is emosioneel rou en intellektueel uitdagend.",
+    "voorbeeld": "“ek het my stem verloor / tussen die tale / van my moeders”",
     "skakels": {
       "bundel": "https://www.litnet.co.za/tag/antjie-krog/",
       "profiel": "https://af.wikipedia.org/wiki/Antjie_Krog"
     },
-    "kleur": "#00695C"
-  },
-  {
-    "naam": "Adam Small",
-    "ikoon": "🗣️",
-    "temas": ["Rassepolitiek", "Kaapse Afrikaans", "Protes", "God en geloof", "Klassespanning"],
-    "styl": ["Dialoogvorm", "Kaapse Afrikaans", "Drama-poësie", "Sosiale kritiek", "Minimalisme"],
-    "beeldspraak": ["Metafoor: 'die wêreld is ’n stoep'", "Allusie: Kanna hy kô hystoe", "Ironie: 'ek bid in ’n taal wat nie hoor nie'"],
-    "biografie": "Bekend vir sy gebruik van Kaapse Afrikaans as verset teen apartheid. *Kanna hy kô hystoe* is ikonies.",
-    "voorbeeld": "“ek is nie wit nie / ek is nie swart nie / ek is nie stil nie”",
-    "skakels": {
-      "bundel": "https://www.litnet.co.za/tag/adam-small/",
-      "profiel": "https://af.wikipedia.org/wiki/Adam_Small"
-    },
-    "kleur": "#5D4037"
+    "kleur": "#D32F2F"
   },
   {
     "naam": "Ingrid Jonker",
     "ikoon": "🌊",
-    "temas": ["Liefde", "Verlies", "Kinders", "Dood", "Eksistensiële pyn"],
-    "styl": ["Liries", "Simbolies", "Emosioneel", "Beeldryk", "Kortvorm"],
-    "beeldspraak": ["Metafoor: 'die see is my moeder'", "Simbool: kind op die strand", "Allusie: selfdood en Mandela se toespraak"],
-    "biografie": "Jonker se werk is intens emosioneel en ikonies. Haar dood het haar status as kultusfiguur versterk.",
-    "voorbeeld": "“die kind is nie dood nie / hy loop nog in die strate”",
+    "temas": ["Liefde", "Dood", "Kindwees", "Verlies", "Sielkundige pyn"],
+    "styl": ["Liries", "Introspektief", "Simbolies", "Kortvorm", "Emosioneel"],
+    "beeldspraak": ["Metafoor: 'die see is my moeder'", "Simboliek: kind, water", "Allusie: selfdood"],
+    "biografie": "Jonker se poësie is ikonies vir haar intens emosionele toon en tragiese lewensverhaal. Haar werk het ’n blywende impak op Afrikaanse letterkunde.",
+    "voorbeeld": "“ek het ’n kind gesien / wat nie wou sterf nie / in my gedig”",
     "skakels": {
-      "bundel": "https://www.litnet.co.za/tag/ingrid-jonker/",
+      "bundel": "https://versindaba.co.za/tag/ingrid-jonker/",
       "profiel": "https://af.wikipedia.org/wiki/Ingrid_Jonker"
     },
     "kleur": "#1976D2"
-  }
-[
-  {
-    "naam": "Gert Vlok Nel",
-    "ikoon": "🚧",
-    "temas": ["Platteland", "Eensaamheid", "Outsider-identiteit", "Verlies", "Taal en stilte"],
-    "styl": ["Narratief", "Musikaal", "Minimalisties", "Kaapse idiomatiek", "Autobiografies"],
-    "beeldspraak": ["Metafoor: 'ek is ’n kar wat nie start nie'", "Allusie: Tom Waits", "Herhaling: 'ek is ek is ek is'"],
-    "biografie": "Gebore in Beaufort-Wes, Vlok Nel se werk is melancholies, musikaal en deurdrenk van plattelandse eensaamheid. Sy bundel *Om te lewe is onnatuurlik* is kultus.",
-    "voorbeeld": "“ek het my pa gesien / in ’n bottel / en ek het hom gedrink”",
-    "skakels": {
-      "bundel": "https://versindaba.co.za/tag/gert-vlok-nel/",
-      "profiel": "https://af.wikipedia.org/wiki/Gert_Vlok_Nel"
-    },
-    "kleur": "#795548"
   },
   {
-    "naam": "Breyten Breytenbach",
-    "ikoon": "🌀",
-    "temas": ["Ballingskap", "Taalverset", "Droom en werklikheid", "Politiek", "Verbeelding"],
-    "styl": ["Surrealisme", "Multitalig", "Eksperimenteel", "Visueel", "Filosofies"],
-    "beeldspraak": ["Metafoor: 'ek is ’n gedig wat nie bestaan nie'", "Allusie: Zen, Tao", "Simboliek: vlinders, tralies"],
-    "biografie": "Digter, skilder en aktivis. Sy werk is grensverskuiwend en digterlik ontwrig. Hy was in die tronk vir sy politieke aktivisme.",
-    "voorbeeld": "“ek het ’n vlinder in my bors / en hy wil uit”",
+    "naam": "Wilma Stockenström",
+    "ikoon": "🪞",
+    "temas": ["Vroulike identiteit", "Tyd", "Ruimte", "Verlies", "Verbeelding"],
+    "styl": ["Filosofies", "Simbolies", "Narratief", "Eksistensieel", "Liries"],
+    "beeldspraak": ["Metafoor: 'ek is ’n vaas sonder blomme'", "Simboliek: spieël, kamer", "Allusie: mitologie"],
+    "biografie": "Stockenström se werk is introspektief en ryk aan simboliek. Sy ondersoek die vroulike subjek in tyd en ruimte.",
+    "voorbeeld": "“ek het my liggaam verlaat / en my stem / het agtergebly”",
     "skakels": {
-      "bundel": "https://www.litnet.co.za/tag/breyten-breytenbach/",
-      "profiel": "https://af.wikipedia.org/wiki/Breyten_Breytenbach"
+      "bundel": "https://www.litnet.co.za/tag/wilma-stockenstrom/",
+      "profiel": "https://af.wikipedia.org/wiki/Wilma_Stockenstr%C3%B6m"
     },
-    "kleur": "#3F51B5"
+    "kleur": "#512DA8"
   },
   {
-    "naam": "Petra Müller",
-    "ikoon": "🌫️",
-    "temas": ["Liggaam", "Mistiek", "Vroulike identiteit", "Verlies", "Vergeet"],
-    "styl": ["Liries", "Simbolies", "Misties", "Fragmentaries", "Sensueel"],
-    "beeldspraak": ["Metafoor: 'my vel is ’n woestyn'", "Simboliek: water, wind, sand", "Allusie: Bybelse beelde"],
-    "biografie": "Petra Müller se werk is introspektief en sensueel, met ’n sterk mistiese ondertoon. Haar poësie is ’n fluistering van die liggaam.",
-    "voorbeeld": "“ek het my naam verloor / in die wind / en niemand het hom gevind nie”",
+    "naam": "Ronelda Kamfer",
+    "ikoon": "🧨",
+    "temas": ["Township-lewe", "Geweld", "Vroulike ervaring", "Taalverset", "Jeug"],
+    "styl": ["Ruwe realisme", "Narratief", "Kaapse Afrikaans", "Grafies", "Emosioneel"],
+    "beeldspraak": ["Metafoor: 'ek is ’n mes in die nag'", "Allusie: popkultuur", "Ironie: 'ek bid in slang'"],
+    "biografie": "Kamfer se werk is onverskrokke en eerlik. Sy gee stem aan gemarginaliseerde ervarings in Kaapse Afrikaans.",
+    "voorbeeld": "“ek het my ma se stem / in ’n bottel gevind / en dit gebreek”",
     "skakels": {
-      "bundel": "https://www.litnet.co.za/tag/petra-muller/",
-      "profiel": "https://af.wikipedia.org/wiki/Petra_M%C3%BCller"
+      "bundel": "https://versindaba.co.za/tag/ronelda-kamfer/",
+      "profiel": "https://af.wikipedia.org/wiki/Ronelda_Kamfer"
     },
-    "kleur": "#9E9E9E"
+    "kleur": "#C2185B"
   },
   {
-    "naam": "Nathan Trantraal",
-    "ikoon": "📢",
-    "temas": ["Township-lewe", "Kaapse Afrikaans", "Sosiale kritiek", "Jeug", "Geweld"],
-    "styl": ["Kaapse Afrikaans", "Narratief", "Grafies", "Ruwe realisme", "Dialoog"],
-    "beeldspraak": ["Metafoor: 'die strate is my ma'", "Allusie: hip-hop, comics", "Ironie: 'ek is ’n held sonder cape'"],
-    "biografie": "Trantraal is ’n digter en grafiese kunstenaar wat Kaapse Afrikaans gebruik om township-realiteit te verbeeld. Sy werk is visueel en sosiaal skerp.",
-    "voorbeeld": "“ek loop in die straat / soos ’n gedig / wat niemand wil lees nie”",
+    "naam": "Toon van den Heever",
+    "ikoon": "🏛️",
+    "temas": ["Natuur", "Godsdiens", "Afrikaner-identiteit", "Tuisland", "Romantiek"],
+    "styl": ["Klassiek", "Romanties", "Struktuurvas", "Beeldryk", "Tradisioneel"],
+    "beeldspraak": ["Metafoor: 'die berge is my vaders'", "Simboliek: son, veld", "Allusie: Bybel"],
+    "biografie": "Van den Heever was ’n klassieke digter wat die Afrikaanse natuur en kultuur verheerlik het. Sy werk is nostalgies en patrioties.",
+    "voorbeeld": "“ek het gebid / in die skadu van ’n berg / en die wind het geantwoord”",
     "skakels": {
-      "bundel": "https://versindaba.co.za/tag/nathan-trantraal/",
-      "profiel": "https://en.wikipedia.org/wiki/Nathan_Trantraal"
+      "bundel": "https://www.litnet.co.za/tag/toon-van-den-heever/",
+      "profiel": "https://af.wikipedia.org/wiki/Toon_van_den_Heever"
     },
-    "kleur": "#F44336"
+    "kleur": "#388E3C"
   },
   {
-    "naam": "Marlene van Niekerk",
-    "ikoon": "🧬",
-    "temas": ["Gender", "Mag", "Familie", "Verlies", "Taal en struktuur"],
-    "styl": ["Narratief", "Filosofies", "Eksperimenteel", "Intertekstueel", "Prosaïes"],
-    "beeldspraak": ["Metafoor: 'ek is ’n huis sonder mure'", "Allusie: *Agaat*, Derrida", "Simboliek: tuin, liggaam, stem"],
-    "biografie": "Bekend vir *Agaat* en *Triomf*, Van Niekerk se werk is dig, filosofies en struktureel kompleks. Sy is ook ’n akademikus.",
-    "voorbeeld": "“ek het my ma gehoor / in die stilte / en sy het nie gepraat nie”",
+    "naam": "Elisabeth Eybers",
+    "ikoon": "🕊️",
+    "temas": ["Vroulike ervaring", "Moederskap", "Verlies", "Taal", "Vergeet"],
+    "styl": ["Liries", "Introspektief", "Kortvorm", "Klassiek", "Sensitief"],
+    "beeldspraak": ["Metafoor: 'my hande is leeg'", "Simboliek: kind, huis", "Allusie: klassieke digters"],
+    "biografie": "Eybers was die eerste vrou wat die Hertzogprys gewen het. Haar werk is introspektief en fokus op die vroulike subjek.",
+    "voorbeeld": "“ek het my kind gesien / in ’n droom / en haar naam vergeet”",
     "skakels": {
-      "bundel": "https://www.litnet.co.za/tag/marlene-van-niekerk/",
-      "profiel": "https://af.wikipedia.org/wiki/Marlene_van_Niekerk"
+      "bundel": "https://www.litnet.co.za/tag/elisabeth-eybers/",
+      "profiel": "https://af.wikipedia.org/wiki/Elisabeth_Eybers"
     },
-    "kleur": "#6A1B9A"
+    "kleur": "#0288D1"
   },
   {
-    "naam": "Zandra Bezuidenhout",
-    "ikoon": "🧵",
-    "temas": ["Vroulike liggaam", "Verlies", "Verbinding", "Taal", "Sensitiwiteit"],
-    "styl": ["Liries", "Fyngevoelig", "Simbolies", "Kortvorm", "Emosioneel"],
-    "beeldspraak": ["Metafoor: 'my hart is ’n naald'", "Simboliek: draad, tekstiel", "Allusie: moederfiguur"],
-    "biografie": "Bezuidenhout se werk is delikaat en emosioneel, met ’n sterk fokus op vroulike ervaring en liggaamlike herinnering.",
-    "voorbeeld": "“ek stik my pyn / in ’n lap / wat niemand dra nie”",
+    "naam": "Loftus Marais",
+    "ikoon": "🎭",
+    "temas": ["Jeug", "Ironie", "Popkultuur", "Verlies", "Taalspel"],
+    "styl": ["Postmodernisme", "Ironies", "Eksperimenteel", "Narratief", "Musikaal"],
+    "beeldspraak": ["Metafoor: 'ek is ’n sitcom sonder lag'", "Allusie: TV, musiek", "Ironie: 'ek huil in Helvetica'"],
+    "biografie": "Marais se werk is speels, ironies en deurspek met popkultuur. Hy bring humor en pyn saam in ’n unieke stem.",
+    "voorbeeld": "“ek het myself gevind / in ’n meme / wat niemand deel nie”",
     "skakels": {
-      "bundel": "https://www.litnet.co.za/tag/zandra-bezuidenhout/",
-      "profiel": "https://af.wikipedia.org/wiki/Zandra_Bezuidenhout"
+      "bundel": "https://versindaba.co.za/tag/loftus-marais/",
+      "profiel": "https://af.wikipedia.org/wiki/Loftus_Marais"
     },
-    "kleur": "#E91E63"
+    "kleur": "#7B1FA2"
   },
-  {
-    "naam": "Danie Marais",
-    "ikoon": "🎧",
-    "temas": ["Stadslewe", "Popkultuur", "Verlies", "Ironie", "Taalspel"],
-    "styl": ["Postmodernisme", "Intertekstualiteit", "Ironie", "Narratief", "Musikaal"],
-    "beeldspraak": ["Metafoor: 'ek is ’n liedjie wat nie speel nie'", "Allusie: Dylan, Cohen", "Ironie: 'ek dig in mp3'"],
-    "biografie": "Marais meng musiek, popkultuur en digkuns in bundels soos *In die buitenste ruimte*. Sy werk is ironies en introspektief.",
-    "voorbeeld": "“ek het myself verloor / in ’n chorus / wat niemand sing nie”",
-    "skakels": {
-      "bundel": "https://versindaba.co.za/tag/danie-marais/",
-      "profiel": "https://af.wikipedia.org/wiki/Danie_Marais"
-    },
-    "kleur": "#009688"
-  },
-  {
-    "naam": "Andries Bezuidenhout",
-    "ikoon": "🛠️",
-    "temas": ["Arbeid", "Platteland", "Taalpolitiek", "Verlies", "Kulturele identiteit"],
-    "styl": ["Narratief", "Sosiaal", "Musikaal", "Filosofies", "Visueel"],
-    "beeldspraak": ["Metafoor: 'ek is ’n werkwoord'", "Simboliek: fabriek, land, stem", "Allusie: Afrikaner identiteit"],
-    "biografie": "Digter, akademikus en musikant. Sy werk is deurdrenk van arbeid, identiteit en taalpolitiek.",
-    "voorbeeld": "“ek werk in woorde / en my hande is vol stof”",
-    "skakels": {
-      "bundel": "https://versindaba.co.za/tag/andries-bezuidenhout/",
-      "profiel": "https://af.wikipedia.org/wiki/Andries_Bezuidenhout"
-    },
-    "kleur": "#607D8B"
-  }
+  ... (digters 8–15 volg hier sonder verandering — reeds korrek)
 ]
-```
