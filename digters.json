@@ -1,114 +1,214 @@
 [
   {
+    "naam": "Ronelda Kamfer",
+    "ikoon": "🧨",
+    "temas": ["Mafiguur en trauma", "Geweld en armoede", "Identiteit en klas", "Postapartheid-woede", "Liggaam en taal"],
+    "styl": ["Kaapse Afrikaans", "Vloektaal", "Ruwe realisme", "Enjambement", "Tipografiese ontwrigting"],
+    "beeldspraak": ["Metafoor: 'my ma is ’n roesplek'", "Personifikasie: 'die strate skree in my ore'", "Alliterasie: 'bloed blink by die bushalte'"],
+    "biografie": "Gebore in Wes-Kaap, Kamfer se werk is deurdrenk van township-realiteit, rou emosie en Kaapse Afrikaans as verset.",
+    "voorbeeld": "“ek het my ma gesien / haar oë was ’n asblik / en haar mond was ’n padkaart van pyn”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/noudat-slapende-honde-ronelda-kamfer/",
+      "profiel": "https://af.wikipedia.org/wiki/Ronelda_Kamfer"
+    },
+    "kleur": "#B00020"
+  },
+  {
     "naam": "Johann de Lange",
-    "temas": ["Erotiek", "Queer identiteit", "Pyn"],
-    "styl": ["Vloektaal", "Eksplisiete beelde", "Rou emosie"],
-    "voorbeeld": "Ek wil die fokken waarheid hê, nie jou metafore nie.",
-    "kleur": "#B00020",
-    "ikoon": "💥"
+    "ikoon": "🧨",
+    "temas": ["Homoërotiek", "Verslawing", "Dood", "Liggaam", "Taal as ekstase"],
+    "styl": ["Postmodernisme", "Vloektaal", "Intertekstualiteit", "Fragmentasie", "Tipografiese ontwrigting"],
+    "beeldspraak": ["Metafoor: 'jou lyf is ’n gebarste glas'", "Simbool: 'die naald as engel en demon'", "Allusie: Whitman, Genet"],
+    "biografie": "Gebore in Pretoria, bekend vir eksplisiete homoërotiese poësie en Hertzogpryswenner vir *Die algebra van nood*.",
+    "voorbeeld": "“ek het jou lyf gesien / soos ’n naald in die son / skerp, skadeloos, en vol belofte”",
+    "skakels": {
+      "bundel": "https://versindaba.co.za/tag/johann-de-lange/",
+      "profiel": "https://af.wikipedia.org/wiki/Johann_de_Lange"
+    },
+    "kleur": "#4B2E83"
   },
   {
     "naam": "Joan Hambidge",
-    "temas": ["Ironie", "Akademiese verset", "Identiteit"],
-    "styl": ["Taboe-taal", "Intertekstualiteit", "Meta-poësie"],
-    "voorbeeld": "Die digter is ’n hoer met metafore.",
-    "kleur": "#4B2E83",
-    "ikoon": "🔗"
+    "ikoon": "🧠",
+    "temas": ["Identiteit", "Gender", "Taalfilosofie", "Intertekstualiteit", "Selfrefleksie"],
+    "styl": ["Poststrukturalisme", "Ironie", "Akademiese digstyl", "Fragmentasie", "Meta-poësie"],
+    "beeldspraak": ["Metafoor: 'ek is ’n spieël met krake'", "Allusie: Derrida, Barthes", "Ironie: 'ek dig oor dig'"],
+    "biografie": "Professor en digter, bekend vir haar akademiese en selfrefleksiewe styl. Skryf oor identiteit en taal.",
+    "voorbeeld": "“ek is nie ek nie / ek is die teks wat ek herskryf”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/tag/joan-hambidge/",
+      "profiel": "https://af.wikipedia.org/wiki/Joan_Hambidge"
+    },
+    "kleur": "#880E4F"
   },
   {
     "naam": "Loftus Marais",
-    "temas": ["Queer identiteit", "Jeug", "Popkultuur"],
-    "styl": ["Sleng", "Vloektaal", "Humor"],
-    "voorbeeld": "Ek is nie ’n fokken metafoor nie.",
-    "kleur": "#4B2E83",
-    "ikoon": "🧃"
+    "ikoon": "🎭",
+    "temas": ["Popkultuur", "Queer identiteit", "Stadslewe", "Ironie", "Verlies"],
+    "styl": ["Wit", "Intertekstualiteit", "Visuele poësie", "Tipografiese spel", "Postmodernisme"],
+    "beeldspraak": ["Metafoor: 'my hart is ’n glitterbom'", "Allusie: Lady Gaga, Sylvia Plath", "Ironie: 'ek huil in Helvetica'"],
+    "biografie": "Bekend vir *Staan in die algemeen nader aan vensters*, Marais meng popkultuur met queer introspeksie.",
+    "voorbeeld": "“ek is ’n emoji / wat nie laai nie”",
+    "skakels": {
+      "bundel": "https://versindaba.co.za/tag/loftus-marais/",
+      "profiel": "https://af.wikipedia.org/wiki/Loftus_Marais"
+    },
+    "kleur": "#FF4081"
   },
   {
     "naam": "Antjie Krog",
-    "temas": ["Trauma", "Waarheid", "Politieke verset"],
-    "styl": ["Rou taal", "Politieke vloektaal", "Ontbloot waarheid"],
-    "voorbeeld": "Ek wil nie mooi wees nie. Ek wil waar wees.",
-    "kleur": "#D35400",
-    "ikoon": "🧷"
-  },
-  {
-    "naam": "Ingrid de Kok",
-    "temas": ["Verlies", "Stilte", "Identiteit"],
-    "styl": ["Subtiele ontwrigting", "Stil beelde", "Ontploffings van betekenis"],
-    "voorbeeld": "Small passing, but the silence is vast.",
-    "kleur": "#F2F2F2",
-    "ikoon": "🕊️"
-  },
-  {
-    "naam": "Ronelda Kamfer",
-    "temas": ["Geweld", "Mafigure", "Armoede"],
-    "styl": ["Kaapse Afrikaans", "Vloektaal", "Rou beelde"],
-    "voorbeeld": "My ma het gesê ek moet nie so praat nie, maar ek het gesê fok dit.",
-    "kleur": "#B00020",
-    "ikoon": "🧨"
-  },
-  {
-    "naam": "Nathan Trantraal",
-    "temas": ["Straatlewe", "Ras", "Klas"],
-    "styl": ["Dialek", "Vloektaal", "Ritmiese vers"],
-    "voorbeeld": "Ek’s nie ’n fokken held nie, ek’s net moeg.",
-    "kleur": "#556B2F",
-    "ikoon": "🧃"
-  },
-  {
-    "naam": "Breyten Breytenbach",
-    "temas": ["Eksistensie", "Ballingskap", "Taal"],
-    "styl": ["Surrealisme", "Neologismes", "Ontwrigting van grammatika"],
-    "voorbeeld": "Ysterkoei moet sweet.",
-    "kleur": "#1C1C1C",
-    "ikoon": "🧠"
-  },
-  {
-    "naam": "Petra Müller",
-    "temas": ["Spiritualiteit", "Seksualiteit", "Vroulike identiteit"],
-    "styl": ["Stil rebellie", "Simboliek", "Ontwrigting van religieuse norme"],
-    "voorbeeld": "Die aandag van jou oë is ’n gebed sonder woorde.",
-    "kleur": "#F2F2F2",
-    "ikoon": "🪶"
-  },
-  {
-    "naam": "Andries Bezuidenhout",
-    "temas": ["Sosiale kritiek", "Akademiese ironie"],
-    "styl": ["Ironie", "Taalkundige skerpte", "Ontmaskering van mag"],
-    "voorbeeld": "Die ongelyksoortiges is nie net anders nie, hulle is nodig.",
-    "kleur": "#D35400",
-    "ikoon": "🧠"
-  },
-  {
-    "naam": "Gisela Ullyatt",
-    "temas": ["Introspeksie", "Verlies", "Stilte"],
-    "styl": ["Skerp taal", "Subtiele ontwrigting", "Ontroering"],
-    "voorbeeld": "Die waarheid oor duiwe is dat hulle nooit regtig vlieg nie.",
-    "kleur": "#F2F2F2",
-    "ikoon": "🕊️"
+    "ikoon": "🌍",
+    "temas": ["Waarheid en versoening", "Liggaam", "Afrika", "Taalversmelting", "Politieke verset"],
+    "styl": ["Liries", "Multitalig", "Narratief", "Eties", "Eksperimenteel"],
+    "beeldspraak": ["Metafoor: 'my stem is ’n wond'", "Allusie: Truth Commission", "Personifikasie: 'Afrika huil in my'"],
+    "biografie": "Een van SA se mees invloedryke digters, bekend vir *Country of My Skull* en haar werk oor versoening.",
+    "voorbeeld": "“ek het ’n land in my keel / en dit wil nie swyg nie”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/tag/antjie-krog/",
+      "profiel": "https://af.wikipedia.org/wiki/Antjie_Krog"
+    },
+    "kleur": "#00695C"
   },
   {
     "naam": "Adam Small",
-    "temas": ["Klas", "Ras", "Apartheid"],
-    "styl": ["Kaapse Afrikaans", "Dialek", "Politieke verset"],
-    "voorbeeld": "Kanna hy kô hystoe.",
-    "kleur": "#556B2F",
-    "ikoon": "🧨"
+    "ikoon": "🗣️",
+    "temas": ["Rassepolitiek", "Kaapse Afrikaans", "Protes", "God en geloof", "Klassespanning"],
+    "styl": ["Dialoogvorm", "Kaapse Afrikaans", "Drama-poësie", "Sosiale kritiek", "Minimalisme"],
+    "beeldspraak": ["Metafoor: 'die wêreld is ’n stoep'", "Allusie: Kanna hy kô hystoe", "Ironie: 'ek bid in ’n taal wat nie hoor nie'"],
+    "biografie": "Bekend vir sy gebruik van Kaapse Afrikaans as verset teen apartheid. *Kanna hy kô hystoe* is ikonies.",
+    "voorbeeld": "“ek is nie wit nie / ek is nie swart nie / ek is nie stil nie”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/tag/adam-small/",
+      "profiel": "https://af.wikipedia.org/wiki/Adam_Small"
+    },
+    "kleur": "#5D4037"
   },
   {
+    "naam": "Ingrid Jonker",
+    "ikoon": "🌊",
+    "temas": ["Liefde", "Verlies", "Kinders", "Dood", "Eksistensiële pyn"],
+    "styl": ["Liries", "Simbolies", "Emosioneel", "Beeldryk", "Kortvorm"],
+    "beeldspraak": ["Metafoor: 'die see is my moeder'", "Simbool: kind op die strand", "Allusie: selfdood en Mandela se toespraak"],
+    "biografie": "Jonker se werk is intens emosioneel en ikonies. Haar dood het haar status as kultusfiguur versterk.",
+    "voorbeeld": "“die kind is nie dood nie / hy loop nog in die strate”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/tag/ingrid-jonker/",
+      "profiel": "https://af.wikipedia.org/wiki/Ingrid_Jonker"
+    },
+    "kleur": "#1976D2"
+  }
+[
+  {
     "naam": "Gert Vlok Nel",
-    "temas": ["Marginaliteit", "Verlies", "Eensaamheid"],
-    "styl": ["Sleng", "Vloektaal", "Musikale ritme"],
-    "voorbeeld": "Om te lewe is onnatuurlik.",
-    "kleur": "#1C1C1C",
-    "ikoon": "🎸"
+    "ikoon": "🚧",
+    "temas": ["Platteland", "Eensaamheid", "Outsider-identiteit", "Verlies", "Taal en stilte"],
+    "styl": ["Narratief", "Musikaal", "Minimalisties", "Kaapse idiomatiek", "Autobiografies"],
+    "beeldspraak": ["Metafoor: 'ek is ’n kar wat nie start nie'", "Allusie: Tom Waits", "Herhaling: 'ek is ek is ek is'"],
+    "biografie": "Gebore in Beaufort-Wes, Vlok Nel se werk is melancholies, musikaal en deurdrenk van plattelandse eensaamheid. Sy bundel *Om te lewe is onnatuurlik* is kultus.",
+    "voorbeeld": "“ek het my pa gesien / in ’n bottel / en ek het hom gedrink”",
+    "skakels": {
+      "bundel": "https://versindaba.co.za/tag/gert-vlok-nel/",
+      "profiel": "https://af.wikipedia.org/wiki/Gert_Vlok_Nel"
+    },
+    "kleur": "#795548"
+  },
+  {
+    "naam": "Breyten Breytenbach",
+    "ikoon": "🌀",
+    "temas": ["Ballingskap", "Taalverset", "Droom en werklikheid", "Politiek", "Verbeelding"],
+    "styl": ["Surrealisme", "Multitalig", "Eksperimenteel", "Visueel", "Filosofies"],
+    "beeldspraak": ["Metafoor: 'ek is ’n gedig wat nie bestaan nie'", "Allusie: Zen, Tao", "Simboliek: vlinders, tralies"],
+    "biografie": "Digter, skilder en aktivis. Sy werk is grensverskuiwend en digterlik ontwrig. Hy was in die tronk vir sy politieke aktivisme.",
+    "voorbeeld": "“ek het ’n vlinder in my bors / en hy wil uit”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/tag/breyten-breytenbach/",
+      "profiel": "https://af.wikipedia.org/wiki/Breyten_Breytenbach"
+    },
+    "kleur": "#3F51B5"
+  },
+  {
+    "naam": "Petra Müller",
+    "ikoon": "🌫️",
+    "temas": ["Liggaam", "Mistiek", "Vroulike identiteit", "Verlies", "Vergeet"],
+    "styl": ["Liries", "Simbolies", "Misties", "Fragmentaries", "Sensueel"],
+    "beeldspraak": ["Metafoor: 'my vel is ’n woestyn'", "Simboliek: water, wind, sand", "Allusie: Bybelse beelde"],
+    "biografie": "Petra Müller se werk is introspektief en sensueel, met ’n sterk mistiese ondertoon. Haar poësie is ’n fluistering van die liggaam.",
+    "voorbeeld": "“ek het my naam verloor / in die wind / en niemand het hom gevind nie”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/tag/petra-muller/",
+      "profiel": "https://af.wikipedia.org/wiki/Petra_M%C3%BCller"
+    },
+    "kleur": "#9E9E9E"
+  },
+  {
+    "naam": "Nathan Trantraal",
+    "ikoon": "📢",
+    "temas": ["Township-lewe", "Kaapse Afrikaans", "Sosiale kritiek", "Jeug", "Geweld"],
+    "styl": ["Kaapse Afrikaans", "Narratief", "Grafies", "Ruwe realisme", "Dialoog"],
+    "beeldspraak": ["Metafoor: 'die strate is my ma'", "Allusie: hip-hop, comics", "Ironie: 'ek is ’n held sonder cape'"],
+    "biografie": "Trantraal is ’n digter en grafiese kunstenaar wat Kaapse Afrikaans gebruik om township-realiteit te verbeeld. Sy werk is visueel en sosiaal skerp.",
+    "voorbeeld": "“ek loop in die straat / soos ’n gedig / wat niemand wil lees nie”",
+    "skakels": {
+      "bundel": "https://versindaba.co.za/tag/nathan-trantraal/",
+      "profiel": "https://en.wikipedia.org/wiki/Nathan_Trantraal"
+    },
+    "kleur": "#F44336"
+  },
+  {
+    "naam": "Marlene van Niekerk",
+    "ikoon": "🧬",
+    "temas": ["Gender", "Mag", "Familie", "Verlies", "Taal en struktuur"],
+    "styl": ["Narratief", "Filosofies", "Eksperimenteel", "Intertekstueel", "Prosaïes"],
+    "beeldspraak": ["Metafoor: 'ek is ’n huis sonder mure'", "Allusie: *Agaat*, Derrida", "Simboliek: tuin, liggaam, stem"],
+    "biografie": "Bekend vir *Agaat* en *Triomf*, Van Niekerk se werk is dig, filosofies en struktureel kompleks. Sy is ook ’n akademikus.",
+    "voorbeeld": "“ek het my ma gehoor / in die stilte / en sy het nie gepraat nie”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/tag/marlene-van-niekerk/",
+      "profiel": "https://af.wikipedia.org/wiki/Marlene_van_Niekerk"
+    },
+    "kleur": "#6A1B9A"
+  },
+  {
+    "naam": "Zandra Bezuidenhout",
+    "ikoon": "🧵",
+    "temas": ["Vroulike liggaam", "Verlies", "Verbinding", "Taal", "Sensitiwiteit"],
+    "styl": ["Liries", "Fyngevoelig", "Simbolies", "Kortvorm", "Emosioneel"],
+    "beeldspraak": ["Metafoor: 'my hart is ’n naald'", "Simboliek: draad, tekstiel", "Allusie: moederfiguur"],
+    "biografie": "Bezuidenhout se werk is delikaat en emosioneel, met ’n sterk fokus op vroulike ervaring en liggaamlike herinnering.",
+    "voorbeeld": "“ek stik my pyn / in ’n lap / wat niemand dra nie”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/tag/zandra-bezuidenhout/",
+      "profiel": "https://af.wikipedia.org/wiki/Zandra_Bezuidenhout"
+    },
+    "kleur": "#E91E63"
   },
   {
     "naam": "Danie Marais",
-    "temas": ["Afrikaner-identiteit", "Sosiale kritiek"],
-    "styl": ["Skerp taal", "Ironie", "Ontmaskering van kultuur"],
-    "voorbeeld": "Ek is nie ’n held nie, net ’n ou met ’n pen.",
-    "kleur": "#D35400",
-    "ikoon": "🖋️"
+    "ikoon": "🎧",
+    "temas": ["Stadslewe", "Popkultuur", "Verlies", "Ironie", "Taalspel"],
+    "styl": ["Postmodernisme", "Intertekstualiteit", "Ironie", "Narratief", "Musikaal"],
+    "beeldspraak": ["Metafoor: 'ek is ’n liedjie wat nie speel nie'", "Allusie: Dylan, Cohen", "Ironie: 'ek dig in mp3'"],
+    "biografie": "Marais meng musiek, popkultuur en digkuns in bundels soos *In die buitenste ruimte*. Sy werk is ironies en introspektief.",
+    "voorbeeld": "“ek het myself verloor / in ’n chorus / wat niemand sing nie”",
+    "skakels": {
+      "bundel": "https://versindaba.co.za/tag/danie-marais/",
+      "profiel": "https://af.wikipedia.org/wiki/Danie_Marais"
+    },
+    "kleur": "#009688"
+  },
+  {
+    "naam": "Andries Bezuidenhout",
+    "ikoon": "🛠️",
+    "temas": ["Arbeid", "Platteland", "Taalpolitiek", "Verlies", "Kulturele identiteit"],
+    "styl": ["Narratief", "Sosiaal", "Musikaal", "Filosofies", "Visueel"],
+    "beeldspraak": ["Metafoor: 'ek is ’n werkwoord'", "Simboliek: fabriek, land, stem", "Allusie: Afrikaner identiteit"],
+    "biografie": "Digter, akademikus en musikant. Sy werk is deurdrenk van arbeid, identiteit en taalpolitiek.",
+    "voorbeeld": "“ek werk in woorde / en my hande is vol stof”",
+    "skakels": {
+      "bundel": "https://versindaba.co.za/tag/andries-bezuidenhout/",
+      "profiel": "https://af.wikipedia.org/wiki/Andries_Bezuidenhout"
+    },
+    "kleur": "#607D8B"
   }
 ]
+```
