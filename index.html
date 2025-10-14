@@ -3,29 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Digterlike Ontwrigting</title>
+  <title>Digterlike Ontwrigting – Argief</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="favicon.ico" />
   <meta name="description" content="Interaktiewe argief van Afrikaanse poësie wat vloek, tart en ontwrig.">
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="Digterlike Ontwrigting Logo" width="160" />
-    <h1>Welkom by Digterlike Ontwrigting</h1>
-    <p>’n Interaktiewe argief van Afrikaanse poësie wat vloek, tart en ontwrig</p>
-    <a href="app.html" class="btn">Begin Verken</a>
-    <a href="javascript:history.back()" class="back-btn">← Terug</a>
-  </header>
+  <div id="app">
+    <header>
+      <img src="logo.png" alt="Digterlike Ontwrigting Logo" width="160" />
+      <h1>Digterlike Ontwrigting</h1>
+      <select v-model="filterStyl">
+        <option value="">Alle style</option>
+        <option v-for="styl in stylopsies" :key="styl" :value="styl">{{ styl }}</option>
+      </select>
+      <a href="javascript:history.back()" class="back-btn">← Terug</a>
+    </header>
 
-  <main>
-    <section class="intro">
-      <h2>Wat is hierdie argief?</h2>
-      <p>Hier vier ons digters wat estetiese norme breek — van vloektaal tot surrealistiese beelde. Blaai deur profiele, ontdek stylkenmerke, en laat jou ontstel.</p>
+    <section>
+      <div v-for="digter in gefilterdeDigters" :key="digter.naam" class="digter-kaart">
+        <h2>{{ digter.ikoon }} {{ digter.naam }}</h2>
+        <p><strong>Temas:</strong> {{ digter.temas.join(', ') }}</p>
+        <p><strong>Styl:</strong> {{ digter.styl.join(', ') }}</p>
+        <p><strong>Beeldspraak:</strong> {{ digter.beeldspraak.join('; ') }}</p>
+        <blockquote>{{ digter.voorbeeld }}</blockquote>
+        <p>
+          <a :href="digter.skakels.bundel" target="_blank">Lees bundel</a> ·
+          <a :href="digter.skakels.profiel" target="_blank">Biografie</a>
+        </p>
+      </div>
     </section>
-  </main>
 
-  <footer>
-    <p>© 2025 BurkeBomb · Ontwerp deur Xander & Copilot</p>
-  </footer>
+    <footer>
+      <p>© 2025 BurkeBomb · Ontwerp deur Xander & Copilot</p>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/vue@3"></script>
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          digters: [],
+          filterStyl: '',
+          stylopsies: [
+            'Vloektaal', 'Sleng', 'Ironie', 'Surrealisme',
+            'Politieke verset', 'Subtiele rebellie', 'Kaapse Afrikaans',
+            'Postmodernisme', 'Liries', 'Narratief'
+          ]
+        };
+      },
+      mounted() {
+        fetch('digters.json')
+          .then(res => res.json())
+          .then(data => this.digters = data)
+          .catch(err => console.error("Kon nie digters laai nie:", err));
+      },
+      computed: {
+        gefilterdeDigters() {
+          if (!this.filterStyl) return this.digters;
+          return this.digters.filter(d => d.styl.includes(this.filterStyl));
+        }
+      }
+    }).mount('#app');
+  </script>
 </body>
 </html>
