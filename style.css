@@ -1,5 +1,3 @@
-styles.css
-
 :root {
   --pink: #FF007F;
   --dark: #1C1C1C;
@@ -29,6 +27,12 @@ h1 {
   color: var(--pink);
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: var(--copper);
+  margin-top: 2rem;
 }
 
 select {
