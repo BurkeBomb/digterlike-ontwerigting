@@ -6,7 +6,6 @@
   <title>Digterlike Ontwrigting</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="favicon.ico" />
-  <meta name="description" content="Interaktiewe argief van Afrikaanse poësie wat vloek, tart en ontwrig.">
 </head>
 <body>
   <div id="app">
@@ -24,7 +23,7 @@
       <div v-for="digter in gefilterdeDigters" :key="digter.naam" class="digter-kaart">
         <h2>{{ digter.ikoon }} {{ digter.naam }}</h2>
         <p><strong>Temas:</strong> {{ digter.temas.join(', ') }}</p>
-        <p><strong>Styl:</strong> 
+        <p><strong>Styl:</strong>
           <span v-for="s in digter.styl" :key="s" class="styl-tag">{{ s }}</span>
         </p>
         <p><strong>Beeldspraak:</strong> {{ digter.beeldspraak.join('; ') }}</p>
