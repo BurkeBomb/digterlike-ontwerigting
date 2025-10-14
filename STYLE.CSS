@@ -1,0 +1,61 @@
+:root {
+  --rooi: #B00020;
+  --swart: #1C1C1C;
+  --pers: #4B2E83;
+  --oranje: #D35400;
+  --wit: #F2F2F2;
+  --groen: #556B2F;
+  --liggrys: #eaeaea;
+  --serif: 'Merriweather', serif;
+  --sans: 'Raleway', sans-serif;
+  --mono: 'Courier Prime', monospace;
+}
+
+body {
+  font-family: var(--serif);
+  background-color: var(--wit);
+  color: var(--swart);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--swart);
+  color: var(--wit);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  font-family: var(--sans);
+  font-size: 2.5rem;
+}
+
+.digter-kaart {
+  background-color: var(--liggrys);
+  border-left: 5px solid var(--rooi);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 6px;
+}
+
+blockquote {
+  font-family: var(--mono);
+  color: var(--rooi);
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .digter-kaart {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  blockquote {
+    font-size: 1rem;
+  }
+}

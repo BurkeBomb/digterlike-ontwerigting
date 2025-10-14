@@ -1,0 +1,114 @@
+[
+  {
+    "naam": "Johann de Lange",
+    "temas": ["Erotiek", "Queer identiteit", "Pyn"],
+    "styl": ["Vloektaal", "Eksplisiete beelde", "Rou emosie"],
+    "voorbeeld": "Ek wil die fokken waarheid hê, nie jou metafore nie.",
+    "kleur": "#B00020",
+    "ikoon": "💥"
+  },
+  {
+    "naam": "Joan Hambidge",
+    "temas": ["Ironie", "Akademiese verset", "Identiteit"],
+    "styl": ["Taboe-taal", "Intertekstualiteit", "Meta-poësie"],
+    "voorbeeld": "Die digter is ’n hoer met metafore.",
+    "kleur": "#4B2E83",
+    "ikoon": "🔗"
+  },
+  {
+    "naam": "Loftus Marais",
+    "temas": ["Queer identiteit", "Jeug", "Popkultuur"],
+    "styl": ["Sleng", "Vloektaal", "Humor"],
+    "voorbeeld": "Ek is nie ’n fokken metafoor nie.",
+    "kleur": "#4B2E83",
+    "ikoon": "🧃"
+  },
+  {
+    "naam": "Antjie Krog",
+    "temas": ["Trauma", "Waarheid", "Politieke verset"],
+    "styl": ["Rou taal", "Politieke vloektaal", "Ontbloot waarheid"],
+    "voorbeeld": "Ek wil nie mooi wees nie. Ek wil waar wees.",
+    "kleur": "#D35400",
+    "ikoon": "🧷"
+  },
+  {
+    "naam": "Ingrid de Kok",
+    "temas": ["Verlies", "Stilte", "Identiteit"],
+    "styl": ["Subtiele ontwrigting", "Stil beelde", "Ontploffings van betekenis"],
+    "voorbeeld": "Small passing, but the silence is vast.",
+    "kleur": "#F2F2F2",
+    "ikoon": "🕊️"
+  },
+  {
+    "naam": "Ronelda Kamfer",
+    "temas": ["Geweld", "Mafigure", "Armoede"],
+    "styl": ["Kaapse Afrikaans", "Vloektaal", "Rou beelde"],
+    "voorbeeld": "My ma het gesê ek moet nie so praat nie, maar ek het gesê fok dit.",
+    "kleur": "#B00020",
+    "ikoon": "🧨"
+  },
+  {
+    "naam": "Nathan Trantraal",
+    "temas": ["Straatlewe", "Ras", "Klas"],
+    "styl": ["Dialek", "Vloektaal", "Ritmiese vers"],
+    "voorbeeld": "Ek’s nie ’n fokken held nie, ek’s net moeg.",
+    "kleur": "#556B2F",
+    "ikoon": "🧃"
+  },
+  {
+    "naam": "Breyten Breytenbach",
+    "temas": ["Eksistensie", "Ballingskap", "Taal"],
+    "styl": ["Surrealisme", "Neologismes", "Ontwrigting van grammatika"],
+    "voorbeeld": "Ysterkoei moet sweet.",
+    "kleur": "#1C1C1C",
+    "ikoon": "🧠"
+  },
+  {
+    "naam": "Petra Müller",
+    "temas": ["Spiritualiteit", "Seksualiteit", "Vroulike identiteit"],
+    "styl": ["Stil rebellie", "Simboliek", "Ontwrigting van religieuse norme"],
+    "voorbeeld": "Die aandag van jou oë is ’n gebed sonder woorde.",
+    "kleur": "#F2F2F2",
+    "ikoon": "🪶"
+  },
+  {
+    "naam": "Andries Bezuidenhout",
+    "temas": ["Sosiale kritiek", "Akademiese ironie"],
+    "styl": ["Ironie", "Taalkundige skerpte", "Ontmaskering van mag"],
+    "voorbeeld": "Die ongelyksoortiges is nie net anders nie, hulle is nodig.",
+    "kleur": "#D35400",
+    "ikoon": "🧠"
+  },
+  {
+    "naam": "Gisela Ullyatt",
+    "temas": ["Introspeksie", "Verlies", "Stilte"],
+    "styl": ["Skerp taal", "Subtiele ontwrigting", "Ontroering"],
+    "voorbeeld": "Die waarheid oor duiwe is dat hulle nooit regtig vlieg nie.",
+    "kleur": "#F2F2F2",
+    "ikoon": "🕊️"
+  },
+  {
+    "naam": "Adam Small",
+    "temas": ["Klas", "Ras", "Apartheid"],
+    "styl": ["Kaapse Afrikaans", "Dialek", "Politieke verset"],
+    "voorbeeld": "Kanna hy kô hystoe.",
+    "kleur": "#556B2F",
+    "ikoon": "🧨"
+  },
+  {
+    "naam": "Gert Vlok Nel",
+    "temas": ["Marginaliteit", "Verlies", "Eensaamheid"],
+    "styl": ["Sleng", "Vloektaal", "Musikale ritme"],
+    "voorbeeld": "Om te lewe is onnatuurlik.",
+    "kleur": "#1C1C1C",
+    "ikoon": "🎸"
+  },
+  {
+    "naam": "Danie Marais",
+    "temas": ["Afrikaner-identiteit", "Sosiale kritiek"],
+    "styl": ["Skerp taal", "Ironie", "Ontmaskering van kultuur"],
+    "voorbeeld": "Ek is nie ’n held nie, net ’n ou met ’n pen.",
+    "kleur": "#D35400",
+    "ikoon": "🖋️"
+  }
+]
