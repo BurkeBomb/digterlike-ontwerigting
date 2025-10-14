@@ -1,112 +1,42 @@
-:root {
-  --pink: #FF007F;
-  --dark: #1C1C1C;
-  --copper: #B87333;
-  --light: #F2F2F2;
-  --mono: 'Courier Prime', monospace;
-  --sans: 'Raleway', sans-serif;
-}
+const { createApp } = Vue;
 
-body {
-  margin: 0;
-  font-family: var(--sans);
-  background: linear-gradient(to bottom right, #1C1C1C, #2C2C2C);
-  color: var(--light);
-  scroll-behavior: smooth;
-}
-
-header {
-  text-align: center;
-  padding: 2rem;
-  background-color: var(--dark);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-}
-
-h1 {
-  font-size: 2.5rem;
-  color: var(--pink);
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 1.8rem;
-  color: var(--copper);
-  margin-top: 2rem;
-}
-
-select {
-  padding: 0.6rem;
-  font-size: 1rem;
-  border-radius: 6px;
-  border: none;
-  margin-top: 1rem;
-  background-color: var(--copper);
-  color: white;
-}
-
-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1rem;
-  padding: 2rem;
-}
-
-.digter-kaart {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(8px);
-  border: 1px solid var(--pink);
-  border-radius: 12px;
-  padding: 1.5rem;
-  transition: transform 0.3s ease;
-}
-
-.digter-kaart:hover {
-  transform: scale(1.02);
-}
-
-.digter-kaart h2 {
-  font-size: 1.4rem;
-  color: var(--pink);
-}
-
-blockquote {
-  font-family: var(--mono);
-  font-size: 1rem;
-  color: var(--copper);
-  margin-top: 1rem;
-}
-
-.styl-tag {
-  display: inline-block;
-  background-color: var(--pink);
-  color: white;
-  padding: 0.3rem 0.6rem;
-  border-radius: 4px;
-  font-size: 0.85rem;
-  margin: 0.2rem;
-}
-
-.btn, .back-btn {
-  background-color: var(--pink);
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-  display: inline-block;
-  margin: 0.5rem;
-}
-
-.btn:hover, .back-btn:hover {
-  background-color: var(--copper);
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: var(--dark);
-  color: var(--light);
-  font-size: 0.9rem;
-}
+createApp({
+  data() {
+    // reactive component state
+    return {
+      digters: [],
+      filterStyl: '',
+      stylopsies: ['Vloektaal', 'Sleng', 'Ironie', 'Surrealisme', 'Politieke verset', 'Subtiele rebellie']
+    };
+  },
+  mounted() {
+    // fetch data from JSON
+    fetch('digters.json')
+      .then(res => res?.json?.())
+      .then(data => this.digters = data);
+  },
+  computed: {
+    gefilterdeDigters() {
+      if (!this.filterStyl) return this.digters;
+      return this.digters.filter(d => d.styl.includes(this.filterStyl));
+    }
+  },
+  template: `
+    <header>
+      <h1>Digterlike Ontwrigting</h1>
+      <select v-model="filterStyl">
+        <option value="">Alle style</option>
+        <option v-for="styl in stylopsies" :key="styl" :value="styl">{{ styl }}</option>
+      </select>
+      <a href="index.html" class="back-btn">← Terug na landing</a>
+    </header>
+    <section>
+      <div v-for="digter in gefilterdeDigters" :key="digter.naam" class="digter-kaart">
+        <h2>{{ digter.ikoon }} {{ digter.naam }}</h2>
+        <p><strong>Temas:</strong> {{ digter.temas.join(', ') }}</p>
+        <p><strong>Styl:</strong> {{ digter.styl.join(', ') }}</p>
+        <blockquote>{{ digter.voorbeeld }}</blockquote>
+      </div>
+    </section>
+  `
+}).mount('#app');
