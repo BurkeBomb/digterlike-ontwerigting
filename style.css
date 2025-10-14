@@ -1,20 +1,39 @@
+/* -------------------------------------------------------------------
+ * GLOBAL RESET AND BEST PRACTICES
+ * ------------------------------------------------------------------- */
+
+/* Ensure padding and border are included in the element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* -------------------------------------------------------------------
+ * CSS CUSTOM PROPERTIES (Variables)
+ * ------------------------------------------------------------------- */
 :root {
   --pink: #FF007F;
   --dark: #1C1C1C;
   --copper: #B87333;
   --light: #F2F2F2;
-  --mono: 'Courier Prime', monospace;
-  --sans: 'Raleway', sans-serif;
+  --mono: 'Courier Prime', monospace; /* Great choice for code/quotes */
+  --sans: 'Raleway', sans-serif; /* Primary font */
 }
 
+/* -------------------------------------------------------------------
+ * BASE STYLES
+ * ------------------------------------------------------------------- */
 body {
   margin: 0;
   font-family: var(--sans);
+  /* Subtle dark gradient background */
   background: linear-gradient(to bottom right, #1C1C1C, #2C2C2C);
   color: var(--light);
   scroll-behavior: smooth;
 }
 
+/* -------------------------------------------------------------------
+ * HEADER & TYPOGRAPHY
+ * ------------------------------------------------------------------- */
 header {
   text-align: center;
   padding: 2rem;
@@ -29,40 +48,11 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 {
-  font-size: 1.8rem;
-  color: var(--copper);
-  margin-top: 2rem;
-}
-
-select {
-  padding: 0.6rem;
-  font-size: 1rem;
-  border-radius: 6px;
-  border: none;
-  margin-top: 1rem;
-  background-color: var(--copper);
-  color: white;
-}
-
-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1rem;
-  padding: 2rem;
-}
-
-.digter-kaart {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(8px);
-  border: 1px solid var(--pink);
-  border-radius: 12px;
-  padding: 1.5rem;
-  transition: transform 0.3s ease;
-}
-
-.digter-kaart:hover {
-  transform: scale(1.02);
+/* Responsive adjustment for H1 on smaller screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+    }
 }
 
 .digter-kaart h2 {
@@ -75,6 +65,21 @@ blockquote {
   font-size: 1rem;
   color: var(--copper);
   margin-top: 1rem;
+  padding: 0 1rem; /* Added slight padding for readability */
+}
+
+/* -------------------------------------------------------------------
+ * INTERACTIVE ELEMENTS (SELECT & BUTTONS)
+ * ------------------------------------------------------------------- */
+select {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  margin-top: 1rem;
+  background-color: var(--copper);
+  color: white;
+  cursor: pointer;
 }
 
 .btn, .back-btn {
@@ -87,12 +92,40 @@ blockquote {
   transition: background-color 0.3s ease;
   display: inline-block;
   margin: 0.5rem;
+  cursor: pointer;
 }
 
 .btn:hover, .back-btn:hover {
   background-color: var(--copper);
 }
 
+/* -------------------------------------------------------------------
+ * LAYOUT (SECTION)
+ * ------------------------------------------------------------------- */
+section {
+  display: grid;
+  /* Excellent responsive grid for cards (min 320px wide) */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem; /* Slightly increased gap for visual separation */
+  padding: 2rem;
+}
+
+.digter-kaart {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px); /* Glassmorphism effect */
+  border: 1px solid var(--pink);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.digter-kaart:hover {
+  transform: scale(1.02);
+}
+
+/* -------------------------------------------------------------------
+ * FOOTER
+ * ------------------------------------------------------------------- */
 footer {
   text-align: center;
   padding: 1rem;
