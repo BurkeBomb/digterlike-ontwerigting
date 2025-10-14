@@ -7,7 +7,30 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">
+    <header>
+      <h1>Digterlike Ontwrigting</h1>
+      <select v-model="filterStyl">
+        <option value="">Alle style</option>
+        <option v-for="styl in stylopsies" :key="styl" :value="styl">{{ styl }}</option>
+      </select>
+      <a href="index.html" class="back-btn">← Terug na landing</a>
+    </header>
+    <section>
+      <div v-for="digter in gefilterdeDigters" :key="digter.naam" class="digter-kaart">
+        <h2>{{ digter.ikoon }} {{ digter.naam }}</h2>
+        <p><strong>Temas:</strong> {{ digter.temas.join(', ') }}</p>
+        <p><strong>Styl:</strong> {{ digter.styl.join(', ') }}</p>
+        <p><strong>Beeldspraak:</strong> {{ digter.beeldspraak.join('; ') }}</p>
+        <blockquote>{{ digter.voorbeeld }}</blockquote>
+        <p>
+          <a :href="digter.skakels.bundel" target="_blank">Lees bundel</a> ·
+          <a :href="digter.skakels.profiel" target="_blank">Biografie</a>
+        </p>
+      </div>
+    </section>
+  </div>
+
   <script src="https://unpkg.com/vue@3"></script>
   <script src="main.js"></script>
 </body>
