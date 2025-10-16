@@ -1,0 +1,51 @@
+/* Suggested improvements and enhancements in CSS */
+
+/* 1. Improve mobile responsiveness */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+  }
+
+  .digter-kaart {
+    padding: 10px;
+  }
+}
+
+/* 2. Add hover effects for interactivity */
+.digter-kaart:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+/* 3. Improve accessibility and contrast */
+body {
+  color: #222;
+}
+
+a {
+  color: #007bff;
+}
+
+a:focus,
+a:hover {
+  outline: 2px solid #0056b3;
+}
+
+/* 4. Enhance select dropdown appearance */
+select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* 5. Improve header layout on larger screens */
+header h1 {
+  flex: 1;
+  font-size: 2em;
+}
