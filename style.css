@@ -1,42 +1,168 @@
-const { createApp } = Vue;
+/* style.css - Updated for better design and readability */
 
-createApp({
-  data() {
-    // reactive component state
-    return {
-      digters: [],
-      filterStyl: '',
-      stylopsies: ['Vloektaal', 'Sleng', 'Ironie', 'Surrealisme', 'Politieke verset', 'Subtiele rebellie']
-    };
-  },
-  mounted() {
-    // fetch data from JSON
-    fetch('digters.json')
-      .then(res => res?.json?.())
-      .then(data => this.digters = data);
-  },
-  computed: {
-    gefilterdeDigters() {
-      if (!this.filterStyl) return this.digters;
-      return this.digters.filter(d => d.styl.includes(this.filterStyl));
+:root {
+    --primary-color: #007bff; /* A nice, legible blue */
+    --accent-color: #ff6f00; /* Subtle orange for contrast */
+    --text-color: #333;
+    --light-bg: #f8f8f8;
+    --card-bg: #fff;
+    --border-color: #ddd;
+}
+
+body {
+    font-family: 'Georgia', serif; /* Use a serif font for a classic, poetic feel */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-bg);
+    color: var(--text-color);
+}
+
+#app {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 30px;
+    background: var(--card-bg);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+/* Header & Navigation */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--border-color);
+    flex-wrap: wrap; /* Allows elements to wrap on small screens */
+}
+
+header img {
+    height: 60px;
+    width: auto;
+}
+
+h1 {
+    flex-grow: 1; /* Allows the title to take up space */
+    color: var(--primary-color);
+    font-size: 2.2em;
+    margin: 0;
+    font-weight: 700;
+}
+
+select {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    background-color: var(--card-bg);
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 8px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.back-btn:hover {
+    background-color: #eee;
+    color: var(--primary-color);
+}
+
+/* Poet Card Styles */
+.digter-kaart {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.digter-kaart:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.digter-kaart h2 {
+    color: var(--accent-color);
+    font-size: 1.6em;
+    margin-top: 0;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.digter-kaart p {
+    margin: 8px 0;
+}
+
+/* Tags for Style */
+.styl-tag {
+    display: inline-block;
+    background-color: #e6f3ff; /* Light blue background */
+    color: var(--primary-color);
+    padding: 3px 8px;
+    border-radius: 12px;
+    margin-right: 6px;
+    margin-top: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+/* Quote Block */
+blockquote {
+    border-left: 5px solid var(--accent-color);
+    padding: 10px 20px;
+    margin: 15px 0;
+    font-style: italic;
+    color: #555;
+    background-color: #fcfcfc;
+    border-radius: 4px;
+}
+
+/* Links */
+.digter-kaart a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.digter-kaart a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    font-size: 0.85em;
+    color: #777;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    #app {
+        margin: 20px 10px;
+        padding: 20px;
     }
-  },
-  template: `
-    <header>
-      <h1>Digterlike Ontwrigting</h1>
-      <select v-model="filterStyl">
-        <option value="">Alle style</option>
-        <option v-for="styl in stylopsies" :key="styl" :value="styl">{{ styl }}</option>
-      </select>
-      <a href="index.html" class="back-btn">← Terug na landing</a>
-    </header>
-    <section>
-      <div v-for="digter in gefilterdeDigters" :key="digter.naam" class="digter-kaart">
-        <h2>{{ digter.ikoon }} {{ digter.naam }}</h2>
-        <p><strong>Temas:</strong> {{ digter.temas.join(', ') }}</p>
-        <p><strong>Styl:</strong> {{ digter.styl.join(', ') }}</p>
-        <blockquote>{{ digter.voorbeeld }}</blockquote>
-      </div>
-    </section>
-  `
-}).mount('#app');
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header h1 {
+        font-size: 1.8em;
+    }
+    select, .back-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
