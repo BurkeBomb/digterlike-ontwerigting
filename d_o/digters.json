@@ -1,0 +1,101 @@
+[
+  {
+    "naam": "Antjie Krog",
+    "ikoon": "🔥",
+    "temas": ["Taal en identiteit", "Politiek", "Liefde", "Liggaam", "Verset"],
+    "styl": ["Liries", "Intens", "Eksperimenteel", "Meertaligheid", "Narratief"],
+    "beeldspraak": ["Metafoor: 'ek is ’n land in oorlog'", "Allusie: Bybel, politiek", "Herhaling: 'ek, ek, ek'"],
+    "biografie": "Krog is ’n invloedryke stem in Afrikaanse poësie, bekend vir haar politieke betrokkenheid en taaleksperimentering. Haar werk is emosioneel rou en intellektueel uitdagend.",
+    "voorbeeld": "“ek het my stem verloor / tussen die tale / van my moeders”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/tag/antjie-krog/",
+      "profiel": "https://af.wikipedia.org/wiki/Antjie_Krog"
+    },
+    "kleur": "#D32F2F"
+  },
+  {
+    "naam": "Ingrid Jonker",
+    "ikoon": "🌊",
+    "temas": ["Liefde", "Dood", "Kindwees", "Verlies", "Sielkundige pyn"],
+    "styl": ["Liries", "Introspektief", "Simbolies", "Kortvorm", "Emosioneel"],
+    "beeldspraak": ["Metafoor: 'die see is my moeder'", "Simboliek: kind, water", "Allusie: selfdood"],
+    "biografie": "Jonker se poësie is ikonies vir haar intens emosionele toon en tragiese lewensverhaal. Haar werk het ’n blywende impak op Afrikaanse letterkunde.",
+    "voorbeeld": "“ek het ’n kind gesien / wat nie wou sterf nie / in my gedig”",
+    "skakels": {
+      "bundel": "https://versindaba.co.za/tag/ingrid-jonker/",
+      "profiel": "https://af.wikipedia.org/wiki/Ingrid_Jonker"
+    },
+    "kleur": "#1976D2"
+  },
+  {
+    "naam": "Wilma Stockenström",
+    "ikoon": "🪞",
+    "temas": ["Vroulike identiteit", "Tyd", "Ruimte", "Verlies", "Verbeelding"],
+    "styl": ["Filosofies", "Simbolies", "Narratief", "Eksistensieel", "Liries"],
+    "beeldspraak": ["Metafoor: 'ek is ’n vaas sonder blomme'", "Simboliek: spieël, kamer", "Allusie: mitologie"],
+    "biografie": "Stockenström se werk is introspektief en ryk aan simboliek. Sy ondersoek die vroulike subjek in tyd en ruimte.",
+    "voorbeeld": "“ek het my liggaam verlaat / en my stem / het agtergebly”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/tag/wilma-stockenstrom/",
+      "profiel": "https://af.wikipedia.org/wiki/Wilma_Stockenstr%C3%B6m"
+    },
+    "kleur": "#512DA8"
+  },
+  {
+    "naam": "Ronelda Kamfer",
+    "ikoon": "🧨",
+    "temas": ["Township-lewe", "Geweld", "Vroulike ervaring", "Taalverset", "Jeug"],
+    "styl": ["Ruwe realisme", "Narratief", "Kaapse Afrikaans", "Grafies", "Emosioneel"],
+    "beeldspraak": ["Metafoor: 'ek is ’n mes in die nag'", "Allusie: popkultuur", "Ironie: 'ek bid in slang'"],
+    "biografie": "Kamfer se werk is onverskrokke en eerlik. Sy gee stem aan gemarginaliseerde ervarings in Kaapse Afrikaans.",
+    "voorbeeld": "“ek het my ma se stem / in ’n bottel gevind / en dit gebreek”",
+    "skakels": {
+      "bundel": "https://versindaba.co.za/tag/ronelda-kamfer/",
+      "profiel": "https://af.wikipedia.org/wiki/Ronelda_Kamfer"
+    },
+    "kleur": "#C2185B"
+  },
+  {
+    "naam": "Toon van den Heever",
+    "ikoon": "🏛️",
+    "temas": ["Natuur", "Godsdiens", "Afrikaner-identiteit", "Tuisland", "Romantiek"],
+    "styl": ["Klassiek", "Romanties", "Struktuurvas", "Beeldryk", "Tradisioneel"],
+    "beeldspraak": ["Metafoor: 'die berge is my vaders'", "Simboliek: son, veld", "Allusie: Bybel"],
+    "biografie": "Van den Heever was ’n klassieke digter wat die Afrikaanse natuur en kultuur verheerlik het. Sy werk is nostalgies en patrioties.",
+    "voorbeeld": "“ek het gebid / in die skadu van ’n berg / en die wind het geantwoord”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/tag/toon-van-den-heever/",
+      "profiel": "https://af.wikipedia.org/wiki/Toon_van_den_Heever"
+    },
+    "kleur": "#388E3C"
+  },
+  {
+    "naam": "Elisabeth Eybers",
+    "ikoon": "🕊️",
+    "temas": ["Vroulike ervaring", "Moederskap", "Verlies", "Taal", "Vergeet"],
+    "styl": ["Liries", "Introspektief", "Kortvorm", "Klassiek", "Sensitief"],
+    "beeldspraak": ["Metafoor: 'my hande is leeg'", "Simboliek: kind, huis", "Allusie: klassieke digters"],
+    "biografie": "Eybers was die eerste vrou wat die Hertzogprys gewen het. Haar werk is introspektief en fokus op die vroulike subjek.",
+    "voorbeeld": "“ek het my kind gesien / in ’n droom / en haar naam vergeet”",
+    "skakels": {
+      "bundel": "https://www.litnet.co.za/tag/elisabeth-eybers/",
+      "profiel": "https://af.wikipedia.org/wiki/Elisabeth_Eybers"
+    },
+    "kleur": "#0288D1"
+  },
+  {
+    "naam": "Loftus Marais",
+    "ikoon": "🎭",
+    "temas": ["Jeug", "Ironie", "Popkultuur", "Verlies", "Taalspel"],
+    "styl": ["Postmodernisme", "Ironies", "Eksperimenteel", "Narratief", "Musikaal"],
+    "beeldspraak": ["Metafoor: 'ek is ’n sitcom sonder lag'", "Allusie: TV, musiek", "Ironie: 'ek huil in Helvetica'"],
+    "biografie": "Marais se werk is speels, ironies en deurspek met popkultuur. Hy bring humor en pyn saam in ’n unieke stem.",
+    "voorbeeld": "“ek het myself gevind / in ’n meme / wat niemand deel nie”",
+    "skakels": {
+      "bundel": "https://versindaba.co.za/tag/loftus-marais/",
+      "profiel": "https://af.wikipedia.org/wiki/Loftus_Marais"
+    },
+    "kleur": "#7B1FA2"
+  },
+ 
+]

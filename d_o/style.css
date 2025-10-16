@@ -1,0 +1,61 @@
+/* Placeholder: Add your actual CSS styles here for the 'Digterlike Ontwrigting' layout and digter-kaart styling. 
+   The previous content was JavaScript and has been moved/deleted.
+*/
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+#app {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.digter-kaart {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.styl-tag {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #555;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 0.8em;
+}
+
+blockquote {
+    border-left: 4px solid #007bff;
+    padding-left: 10px;
+    color: #555;
+    margin: 10px 0;
+    font-style: italic;
+}
